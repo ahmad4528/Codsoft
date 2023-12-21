@@ -197,16 +197,17 @@ nav #icon{
     }
 
     .menu a{
-        color: black;
+        color: white;
         display: block;
         margin: 15px 0;
-        line-height: 13px;
+        line-height: 20px;
         font-size: 23px;
     }
 
     .menu{
         left: -100%;
         transition: all 0.5s;
+        background-color: gray;
     }
 
     nav .menu.show{
